@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  --primary-color: #d8ff91;
+  font-family: "Fuzzy Bubbles", sans-serif;
+  font-weight: 700;
+}
+
+.fuzzy-bubbles-regular {
+  font-family: "Fuzzy Bubbles", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fuzzy-bubbles-bold {
+  font-family: "Fuzzy Bubbles", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  background-color: var(--primary-color);
+}
